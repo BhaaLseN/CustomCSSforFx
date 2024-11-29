@@ -143,13 +143,13 @@
 /* @import "./config/color_variables_noia4_lightgrey.css"; /**/
 
 /* Based on 'Noia 4 themes' dark colors */
-/* @import "./config/color_variables_noia4_dark.css"; /**/  
+@import "./config/color_variables_noia4_dark.css"; /**/  
 
 /* Darker "Dark" default theme v1 */
 /* @import "./css/toolbars/default_dark_theme_darker.css"; /**/
 
 /* Darker "Dark" default theme v2 */
-/* @import "./css/toolbars/default_dark_theme_darker_v2.css"; /**/
+@import "./css/toolbars/default_dark_theme_darker_v2.css"; /**/
 
 
 /* ------------------------------------------
@@ -219,12 +219,12 @@
    [!] good for Dark themes: buttons_on_navbar_glass_appearance.css
 */
 
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_dark.css"; /**/		
 /* @import "./css/buttons/buttons_on_navbar_aero_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_windows_classic_theme_appearance.css"; /**/
-/* @import "./css/buttons/buttons_on_navbar_glass_appearance.css"; /**/
+@import "./css/buttons/buttons_on_navbar_glass_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_osx_appearance.css"; /**/
 
 
@@ -328,7 +328,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/buttons/unified_extensions_button_hidden.css"; /**/
+@import "./css/buttons/unified_extensions_button_hidden.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only_horizontal.css"; /**/
 
@@ -450,7 +450,7 @@
 */
 
 /* @import "./css/appbutton/appbutton_on_navbar_icon_white.css"; /**/
-/* @import "./css/appbutton/appbutton_on_navbar_icon_dark.css"; /**/
+@import "./css/appbutton/appbutton_on_navbar_icon_dark.css"; /**/
 /* @import "./css/appbutton/appbutton_on_navbar_icon_grey.css"; /**/
 /* @import "./css/appbutton/appbutton_on_navbar_icon_browser_logo.css"; /**/
 
@@ -578,7 +578,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
+@import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 133+ */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx128-132.css"; /**/ /* for Firefox 128-132 */
 
 
@@ -800,7 +800,7 @@
    [!] affects context menus, popup menus and panel menus
 */
 
-/* @import "./css/generalui/popup_compact_menus.css"; /**/
+@import "./css/generalui/popup_compact_menus.css"; /**/
 /* @import "./css/generalui/popup_compact_menus_squared.css"; /**/
 /* @import "./css/generalui/popup_menus_menu_background.css"; /**/
 
@@ -1207,7 +1207,7 @@
    ------------------------------------------------------------------------------------
 */
 
-/* @import "./css/locationbar/selection_color_for_dark_bg.css"; /**/
+@import "./css/locationbar/selection_color_for_dark_bg.css"; /**/
 /* @import "./css/locationbar/selection_color_for_bright_bg.css"; /**/
 
 
@@ -1245,10 +1245,10 @@
    [!] only use one option at a time
 */
 
-@import "./css/locationbar/urlbar_background_old_colors.css"; /**/
+/* @import "./css/locationbar/urlbar_background_old_colors.css"; /**/
 /* @import "./css/locationbar/urlbar_background_old_colors_lwtheme.css"; /**/
 /* @import "./css/locationbar/urlbar_background_color.css"; /**/
-/* @import "./css/locationbar/urlbar_background_color_dark.css"; /**/
+@import "./css/locationbar/urlbar_background_color_dark.css"; /**/
 
 
 /* ---------------------------------------
