@@ -1,0 +1,36 @@
+
+/* override colors from megabar_background_color_dark.css */
+:-moz-any(#urlbar-background, #urlbar-input-container,.urlbarView-body-inner, #searchbar, .searchbar-textbox) {
+  background-color: rgba(80,80,80,0.75) !important;
+  color: lightgrey !important;
+}
+/* this one is actually cursor selection/highlighting */
+/*:-moz-any(#urlbar, #searchbar, .searchbar-textbox) ::-moz-selection {
+  background-color: rgb(80,80,80) !important;
+  color: lightgrey !important;
+}*/
+
+/* make urls in the urlbar more legible */
+:root {
+	--urlbar-popup-url-color: rgb(43, 135, 255) !important;
+}
+
+/* make text in the find bar legible when using a dark theme */
+/*.browserContainer > findbar {
+    color: #808080 !important;
+}*/
+
+/* tab background when inactive; dark but present (from config/custom_tab_color_settings.css) */
+/* default tab *****************************/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab .tab-content {
+  --default_tabs_bg_default: linear-gradient(to bottom,#363636,#424242);
+  background: var(--default_tabs_bg_default) !important;
+}
+/* selected tab ****************************/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab[selected] .tab-content {
+  background: var(--default_tabs_bg_selected) !important;
+}
+/* hovered tab ****************************/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:hover:not([selected]) .tab-content {
+  background: var(--default_tabs_bg_hovered) !important;
+}

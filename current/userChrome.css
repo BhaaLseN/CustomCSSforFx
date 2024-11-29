@@ -143,13 +143,13 @@
 /* @import "./config/color_variables_noia4_lightgrey.css"; /**/
 
 /* Based on 'Noia 4 themes' dark colors */
-/* @import "./config/color_variables_noia4_dark.css"; /**/  
+@import "./config/color_variables_noia4_dark.css"; /**/  
 
 /* Darker "Dark" default theme v1 */
 /* @import "./css/toolbars/default_dark_theme_darker.css"; /**/
 
 /* Darker "Dark" default theme v2 */
-/* @import "./css/toolbars/default_dark_theme_darker_v2.css"; /**/
+@import "./css/toolbars/default_dark_theme_darker_v2.css"; /**/
 
 
 /* ------------------------------------------
@@ -219,12 +219,12 @@
    [!] good for Dark themes: buttons_on_navbar_glass_appearance.css
 */
 
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_dark.css"; /**/		
 /* @import "./css/buttons/buttons_on_navbar_aero_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_windows_classic_theme_appearance.css"; /**/
-/* @import "./css/buttons/buttons_on_navbar_glass_appearance.css"; /**/
+@import "./css/buttons/buttons_on_navbar_glass_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_osx_appearance.css"; /**/
 
 
@@ -328,7 +328,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/buttons/unified_extensions_button_hidden.css"; /**/
+@import "./css/buttons/unified_extensions_button_hidden.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only_horizontal.css"; /**/
 
@@ -449,7 +449,7 @@
 */
 
 /* @import "./css/appbutton/appbutton_on_navbar_icon_white.css"; /**/
-/* @import "./css/appbutton/appbutton_on_navbar_icon_dark.css"; /**/
+@import "./css/appbutton/appbutton_on_navbar_icon_dark.css"; /**/
 /* @import "./css/appbutton/appbutton_on_navbar_icon_grey.css"; /**/
 /* @import "./css/appbutton/appbutton_on_navbar_icon_browser_logo.css"; /**/
 
@@ -579,7 +579,7 @@
 */
 
 /* @import "./css/tabs/tabs_below_navigation_toolbar.css"; /**/ /* for Firefox 132 and below */
-/* @import "./css/tabs/tabs_below_navigation_toolbar_fx133.css"; /**/ /* for Firefox 133+ */
+@import "./css/tabs/tabs_below_navigation_toolbar_fx133.css"; /**/ /* for Firefox 133+ */
 
 
 /* Alternative for multi-lined tabs (Possible glitches with inactive menubar!)
@@ -779,7 +779,7 @@
    [!] affects panel menus on Windows 7 and 8 and on Linux
 */
 
-/* @import "./css/generalui/popup_compact_menus.css"; /**/
+@import "./css/generalui/popup_compact_menus.css"; /**/
 /* @import "./css/generalui/popup_compact_menus_squared.css"; /**/
 /* @import "./css/generalui/popup_menus_space_before_label.css"; /**/
 /* @import "./css/generalui/popup_menus_menu_background.css"; /**/
@@ -1181,7 +1181,7 @@
    ------------------------------------------------------------------------------------
 */
 
-/* @import "./css/locationbar/selection_color_for_dark_bg.css"; /**/
+@import "./css/locationbar/selection_color_for_dark_bg.css"; /**/
 /* @import "./css/locationbar/selection_color_for_bright_bg.css"; /**/
 
 
@@ -1205,7 +1205,7 @@
 */
 
 /* @import "./css/locationbar/megabar_expanding_breakout_disabled.css"; /**/
-/* @import "./css/locationbar/megabar_expanding_breakout_disabled_fx133.css"; /**/
+@import "./css/locationbar/megabar_expanding_breakout_disabled_fx133.css"; /**/
 
 
 /* -------------------------------------
@@ -1216,7 +1216,7 @@
 */
 
 /* @import "./css/locationbar/urlbar_background_color.css"; /**/ /* default white background color */
-/* @import "./css/locationbar/urlbar_background_color_dark.css"; /**/ /* force dark color for e.g. dark lw-themes */
+@import "./css/locationbar/urlbar_background_color_dark.css"; /**/ /* force dark color for e.g. dark lw-themes */
 
 
 /* ---------------------------------------
