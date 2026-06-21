@@ -58,6 +58,9 @@
   background: unset !important;
   border: unset !important;
 }
+.tabbrowser-tab:is([selected],[multiselected]) {
+  background-color: rgba(0,128,128,0.7) !important;
+}
 
 /*******************************************/
 /**** default themes tab colors [start] ****/
